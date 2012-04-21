@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11EE4AF1542324700745FE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11EE4AE1542324700745FE7 /* UIKit.framework */; };
+		E11EE4B11542324700745FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11EE4B01542324700745FE7 /* Foundation.framework */; };
+		E11EE4B31542324700745FE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11EE4B21542324700745FE7 /* CoreGraphics.framework */; };
+		E11EE4B91542324700745FE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E11EE4B71542324700745FE7 /* InfoPlist.strings */; };
+		E11EE4BB1542324700745FE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4BA1542324700745FE7 /* main.m */; };
+		E11EE4BF1542324700745FE7 /* RBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4BE1542324700745FE7 /* RBAppDelegate.m */; };
+		E11EE4C71542324800745FE7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11EE4C61542324800745FE7 /* SenTestingKit.framework */; };
+		E11EE4C81542324800745FE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11EE4AE1542324700745FE7 /* UIKit.framework */; };
+		E11EE4C91542324800745FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11EE4B01542324700745FE7 /* Foundation.framework */; };
+		E11EE4D11542324800745FE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E11EE4CF1542324800745FE7 /* InfoPlist.strings */; };
+		E11EE4D41542324800745FE7 /* RBSmartTableViewCell_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4D31542324800745FE7 /* RBSmartTableViewCell_DemoTests.m */; };
+		E11EE4EA1542327700745FE7 /* RBNibManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4DE1542327700745FE7 /* RBNibManager.m */; };
+		E11EE4EB1542327700745FE7 /* RBSimpleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4E01542327700745FE7 /* RBSimpleCell.m */; };
+		E11EE4EC1542327700745FE7 /* RBSimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11EE4E11542327700745FE7 /* RBSimpleCell.xib */; };
+		E11EE4ED1542327700745FE7 /* RBSmartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4E31542327700745FE7 /* RBSmartTableViewCell.m */; };
+		E11EE4EE1542327700745FE7 /* RBStandardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4E51542327700745FE7 /* RBStandardCell.m */; };
+		E11EE4EF1542327700745FE7 /* RBStandardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11EE4E61542327700745FE7 /* RBStandardCell.xib */; };
+		E11EE4F01542327700745FE7 /* RBSubtitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4E81542327700745FE7 /* RBSubtitleCell.m */; };
+		E11EE4F11542327700745FE7 /* RBSubtitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11EE4E91542327700745FE7 /* RBSubtitleCell.xib */; };
+		E11EE4F5154232F100745FE7 /* RBStoryboardDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4F4154232F100745FE7 /* RBStoryboardDemoViewController.m */; };
+		E11EE4F7154232FF00745FE7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11EE4F6154232FF00745FE7 /* MainStoryboard.storyboard */; };
+		E11EE4FA1542344000745FE7 /* RBPersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4F91542344000745FE7 /* RBPersonCell.m */; };
+		E11EE4FD1542348800745FE7 /* RBPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE4FC1542348800745FE7 /* RBPerson.m */; };
+		E1FBEC8E15434966005A3997 /* RBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FBEC8D15434966005A3997 /* RBDemoViewController.m */; };
+		E1FBEC9115434B67005A3997 /* RBXIBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FBEC9015434B67005A3997 /* RBXIBDemoViewController.m */; };
+		E1FBEC94154351D4005A3997 /* RBCodedPersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FBEC93154351D4005A3997 /* RBCodedPersonCell.m */; };
+		E1FBEC9715435404005A3997 /* RBCodedDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FBEC9615435404005A3997 /* RBCodedDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E11EE4CA1542324800745FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11EE4A11542324700745FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11EE4A91542324700745FE7;
+			remoteInfo = "RBSmartTableViewCell Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E11EE4AA1542324700745FE7 /* RBSmartTableViewCell Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RBSmartTableViewCell Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11EE4AE1542324700745FE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E11EE4B01542324700745FE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E11EE4B21542324700745FE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E11EE4B61542324700745FE7 /* RBSmartTableViewCell Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RBSmartTableViewCell Demo-Info.plist"; sourceTree = "<group>"; };
+		E11EE4B81542324700745FE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E11EE4BA1542324700745FE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E11EE4BC1542324700745FE7 /* RBSmartTableViewCell Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RBSmartTableViewCell Demo-Prefix.pch"; sourceTree = "<group>"; };
+		E11EE4BD1542324700745FE7 /* RBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppDelegate.h; sourceTree = "<group>"; };
+		E11EE4BE1542324700745FE7 /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
+		E11EE4C51542324800745FE7 /* RBSmartTableViewCell DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RBSmartTableViewCell DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11EE4C61542324800745FE7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E11EE4CE1542324800745FE7 /* RBSmartTableViewCell DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RBSmartTableViewCell DemoTests-Info.plist"; sourceTree = "<group>"; };
+		E11EE4D01542324800745FE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E11EE4D21542324800745FE7 /* RBSmartTableViewCell_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBSmartTableViewCell_DemoTests.h; sourceTree = "<group>"; };
+		E11EE4D31542324800745FE7 /* RBSmartTableViewCell_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBSmartTableViewCell_DemoTests.m; sourceTree = "<group>"; };
+		E11EE4DD1542327700745FE7 /* RBNibManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBNibManager.h; path = ../../RBNibManager.h; sourceTree = "<group>"; };
+		E11EE4DE1542327700745FE7 /* RBNibManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBNibManager.m; path = ../../RBNibManager.m; sourceTree = "<group>"; };
+		E11EE4DF1542327700745FE7 /* RBSimpleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBSimpleCell.h; path = ../../RBSimpleCell.h; sourceTree = "<group>"; };
+		E11EE4E01542327700745FE7 /* RBSimpleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBSimpleCell.m; path = ../../RBSimpleCell.m; sourceTree = "<group>"; };
+		E11EE4E11542327700745FE7 /* RBSimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RBSimpleCell.xib; path = ../../RBSimpleCell.xib; sourceTree = "<group>"; };
+		E11EE4E21542327700745FE7 /* RBSmartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBSmartTableViewCell.h; path = ../../RBSmartTableViewCell.h; sourceTree = "<group>"; };
+		E11EE4E31542327700745FE7 /* RBSmartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBSmartTableViewCell.m; path = ../../RBSmartTableViewCell.m; sourceTree = "<group>"; };
+		E11EE4E41542327700745FE7 /* RBStandardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBStandardCell.h; path = ../../RBStandardCell.h; sourceTree = "<group>"; };
+		E11EE4E51542327700745FE7 /* RBStandardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBStandardCell.m; path = ../../RBStandardCell.m; sourceTree = "<group>"; };
+		E11EE4E61542327700745FE7 /* RBStandardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RBStandardCell.xib; path = ../../RBStandardCell.xib; sourceTree = "<group>"; };
+		E11EE4E71542327700745FE7 /* RBSubtitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBSubtitleCell.h; path = ../../RBSubtitleCell.h; sourceTree = "<group>"; };
+		E11EE4E81542327700745FE7 /* RBSubtitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBSubtitleCell.m; path = ../../RBSubtitleCell.m; sourceTree = "<group>"; };
+		E11EE4E91542327700745FE7 /* RBSubtitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RBSubtitleCell.xib; path = ../../RBSubtitleCell.xib; sourceTree = "<group>"; };
+		E11EE4F3154232F100745FE7 /* RBStoryboardDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBStoryboardDemoViewController.h; sourceTree = "<group>"; };
+		E11EE4F4154232F100745FE7 /* RBStoryboardDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBStoryboardDemoViewController.m; sourceTree = "<group>"; };
+		E11EE4F6154232FF00745FE7 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E11EE4F81542344000745FE7 /* RBPersonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBPersonCell.h; sourceTree = "<group>"; };
+		E11EE4F91542344000745FE7 /* RBPersonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBPersonCell.m; sourceTree = "<group>"; };
+		E11EE4FB1542348800745FE7 /* RBPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBPerson.h; sourceTree = "<group>"; };
+		E11EE4FC1542348800745FE7 /* RBPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBPerson.m; sourceTree = "<group>"; };
+		E1FBEC8C15434966005A3997 /* RBDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBDemoViewController.h; sourceTree = "<group>"; };
+		E1FBEC8D15434966005A3997 /* RBDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBDemoViewController.m; sourceTree = "<group>"; };
+		E1FBEC8F15434B67005A3997 /* RBXIBDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBXIBDemoViewController.h; sourceTree = "<group>"; };
+		E1FBEC9015434B67005A3997 /* RBXIBDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBXIBDemoViewController.m; sourceTree = "<group>"; };
+		E1FBEC92154351D4005A3997 /* RBCodedPersonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBCodedPersonCell.h; sourceTree = "<group>"; };
+		E1FBEC93154351D4005A3997 /* RBCodedPersonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBCodedPersonCell.m; sourceTree = "<group>"; };
+		E1FBEC9515435404005A3997 /* RBCodedDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBCodedDemoViewController.h; sourceTree = "<group>"; };
+		E1FBEC9615435404005A3997 /* RBCodedDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBCodedDemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11EE4A71542324700745FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EE4AF1542324700745FE7 /* UIKit.framework in Frameworks */,
+				E11EE4B11542324700745FE7 /* Foundation.framework in Frameworks */,
+				E11EE4B31542324700745FE7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11EE4C11542324800745FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EE4C71542324800745FE7 /* SenTestingKit.framework in Frameworks */,
+				E11EE4C81542324800745FE7 /* UIKit.framework in Frameworks */,
+				E11EE4C91542324800745FE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11EE49F1542324700745FE7 = {
+			isa = PBXGroup;
+			children = (
+				E11EE4F2154232C000745FE7 /* RBSmartTableView */,
+				E11EE4B41542324700745FE7 /* RBSmartTableViewCell Demo */,
+				E11EE4CC1542324800745FE7 /* RBSmartTableViewCell DemoTests */,
+				E11EE4AD1542324700745FE7 /* Frameworks */,
+				E11EE4AB1542324700745FE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11EE4AB1542324700745FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11EE4AA1542324700745FE7 /* RBSmartTableViewCell Demo.app */,
+				E11EE4C51542324800745FE7 /* RBSmartTableViewCell DemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11EE4AD1542324700745FE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E11EE4AE1542324700745FE7 /* UIKit.framework */,
+				E11EE4B01542324700745FE7 /* Foundation.framework */,
+				E11EE4B21542324700745FE7 /* CoreGraphics.framework */,
+				E11EE4C61542324800745FE7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E11EE4B41542324700745FE7 /* RBSmartTableViewCell Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E11EE4BD1542324700745FE7 /* RBAppDelegate.h */,
+				E11EE4BE1542324700745FE7 /* RBAppDelegate.m */,
+				E1FBEC9815435BB3005A3997 /* Demo View Controllers */,
+				E11EE4FB1542348800745FE7 /* RBPerson.h */,
+				E11EE4FC1542348800745FE7 /* RBPerson.m */,
+				E1FBEC9915435BBF005A3997 /* Custom Cells */,
+				E11EE4F6154232FF00745FE7 /* MainStoryboard.storyboard */,
+				E11EE4B51542324700745FE7 /* Supporting Files */,
+			);
+			path = "RBSmartTableViewCell Demo";
+			sourceTree = "<group>";
+		};
+		E11EE4B51542324700745FE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11EE4B61542324700745FE7 /* RBSmartTableViewCell Demo-Info.plist */,
+				E11EE4B71542324700745FE7 /* InfoPlist.strings */,
+				E11EE4BA1542324700745FE7 /* main.m */,
+				E11EE4BC1542324700745FE7 /* RBSmartTableViewCell Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E11EE4CC1542324800745FE7 /* RBSmartTableViewCell DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E11EE4D21542324800745FE7 /* RBSmartTableViewCell_DemoTests.h */,
+				E11EE4D31542324800745FE7 /* RBSmartTableViewCell_DemoTests.m */,
+				E11EE4CD1542324800745FE7 /* Supporting Files */,
+			);
+			path = "RBSmartTableViewCell DemoTests";
+			sourceTree = "<group>";
+		};
+		E11EE4CD1542324800745FE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11EE4CE1542324800745FE7 /* RBSmartTableViewCell DemoTests-Info.plist */,
+				E11EE4CF1542324800745FE7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E11EE4F2154232C000745FE7 /* RBSmartTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E11EE4DD1542327700745FE7 /* RBNibManager.h */,
+				E11EE4DE1542327700745FE7 /* RBNibManager.m */,
+				E11EE4DF1542327700745FE7 /* RBSimpleCell.h */,
+				E11EE4E01542327700745FE7 /* RBSimpleCell.m */,
+				E11EE4E11542327700745FE7 /* RBSimpleCell.xib */,
+				E11EE4E21542327700745FE7 /* RBSmartTableViewCell.h */,
+				E11EE4E31542327700745FE7 /* RBSmartTableViewCell.m */,
+				E11EE4E41542327700745FE7 /* RBStandardCell.h */,
+				E11EE4E51542327700745FE7 /* RBStandardCell.m */,
+				E11EE4E61542327700745FE7 /* RBStandardCell.xib */,
+				E11EE4E71542327700745FE7 /* RBSubtitleCell.h */,
+				E11EE4E81542327700745FE7 /* RBSubtitleCell.m */,
+				E11EE4E91542327700745FE7 /* RBSubtitleCell.xib */,
+			);
+			name = RBSmartTableView;
+			path = "RBSmartTableViewCell Demo";
+			sourceTree = "<group>";
+		};
+		E1FBEC9815435BB3005A3997 /* Demo View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1FBEC8C15434966005A3997 /* RBDemoViewController.h */,
+				E1FBEC8D15434966005A3997 /* RBDemoViewController.m */,
+				E11EE4F3154232F100745FE7 /* RBStoryboardDemoViewController.h */,
+				E11EE4F4154232F100745FE7 /* RBStoryboardDemoViewController.m */,
+				E1FBEC8F15434B67005A3997 /* RBXIBDemoViewController.h */,
+				E1FBEC9015434B67005A3997 /* RBXIBDemoViewController.m */,
+				E1FBEC9515435404005A3997 /* RBCodedDemoViewController.h */,
+				E1FBEC9615435404005A3997 /* RBCodedDemoViewController.m */,
+			);
+			name = "Demo View Controllers";
+			sourceTree = "<group>";
+		};
+		E1FBEC9915435BBF005A3997 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E11EE4F81542344000745FE7 /* RBPersonCell.h */,
+				E11EE4F91542344000745FE7 /* RBPersonCell.m */,
+				E1FBEC92154351D4005A3997 /* RBCodedPersonCell.h */,
+				E1FBEC93154351D4005A3997 /* RBCodedPersonCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11EE4A91542324700745FE7 /* RBSmartTableViewCell Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11EE4D71542324800745FE7 /* Build configuration list for PBXNativeTarget "RBSmartTableViewCell Demo" */;
+			buildPhases = (
+				E11EE4A61542324700745FE7 /* Sources */,
+				E11EE4A71542324700745FE7 /* Frameworks */,
+				E11EE4A81542324700745FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RBSmartTableViewCell Demo";
+			productName = "RBSmartTableViewCell Demo";
+			productReference = E11EE4AA1542324700745FE7 /* RBSmartTableViewCell Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E11EE4C41542324800745FE7 /* RBSmartTableViewCell DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11EE4DA1542324800745FE7 /* Build configuration list for PBXNativeTarget "RBSmartTableViewCell DemoTests" */;
+			buildPhases = (
+				E11EE4C01542324800745FE7 /* Sources */,
+				E11EE4C11542324800745FE7 /* Frameworks */,
+				E11EE4C21542324800745FE7 /* Resources */,
+				E11EE4C31542324800745FE7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E11EE4CB1542324800745FE7 /* PBXTargetDependency */,
+			);
+			name = "RBSmartTableViewCell DemoTests";
+			productName = "RBSmartTableViewCell DemoTests";
+			productReference = E11EE4C51542324800745FE7 /* RBSmartTableViewCell DemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11EE4A11542324700745FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RB;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Robert Brown";
+			};
+			buildConfigurationList = E11EE4A41542324700745FE7 /* Build configuration list for PBXProject "RBSmartTableViewCell Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E11EE49F1542324700745FE7;
+			productRefGroup = E11EE4AB1542324700745FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11EE4A91542324700745FE7 /* RBSmartTableViewCell Demo */,
+				E11EE4C41542324800745FE7 /* RBSmartTableViewCell DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E11EE4A81542324700745FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EE4B91542324700745FE7 /* InfoPlist.strings in Resources */,
+				E11EE4EC1542327700745FE7 /* RBSimpleCell.xib in Resources */,
+				E11EE4EF1542327700745FE7 /* RBStandardCell.xib in Resources */,
+				E11EE4F11542327700745FE7 /* RBSubtitleCell.xib in Resources */,
+				E11EE4F7154232FF00745FE7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11EE4C21542324800745FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EE4D11542324800745FE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E11EE4C31542324800745FE7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11EE4A61542324700745FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EE4BB1542324700745FE7 /* main.m in Sources */,
+				E11EE4BF1542324700745FE7 /* RBAppDelegate.m in Sources */,
+				E11EE4EA1542327700745FE7 /* RBNibManager.m in Sources */,
+				E11EE4EB1542327700745FE7 /* RBSimpleCell.m in Sources */,
+				E11EE4ED1542327700745FE7 /* RBSmartTableViewCell.m in Sources */,
+				E11EE4EE1542327700745FE7 /* RBStandardCell.m in Sources */,
+				E11EE4F01542327700745FE7 /* RBSubtitleCell.m in Sources */,
+				E11EE4F5154232F100745FE7 /* RBStoryboardDemoViewController.m in Sources */,
+				E11EE4FA1542344000745FE7 /* RBPersonCell.m in Sources */,
+				E11EE4FD1542348800745FE7 /* RBPerson.m in Sources */,
+				E1FBEC8E15434966005A3997 /* RBDemoViewController.m in Sources */,
+				E1FBEC9115434B67005A3997 /* RBXIBDemoViewController.m in Sources */,
+				E1FBEC94154351D4005A3997 /* RBCodedPersonCell.m in Sources */,
+				E1FBEC9715435404005A3997 /* RBCodedDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11EE4C01542324800745FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EE4D41542324800745FE7 /* RBSmartTableViewCell_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E11EE4CB1542324800745FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11EE4A91542324700745FE7 /* RBSmartTableViewCell Demo */;
+			targetProxy = E11EE4CA1542324800745FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E11EE4B71542324700745FE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11EE4B81542324700745FE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E11EE4CF1542324800745FE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11EE4D01542324800745FE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E11EE4D51542324800745FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E11EE4D61542324800745FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E11EE4D81542324800745FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBSmartTableViewCell Demo/RBSmartTableViewCell Demo-Prefix.pch";
+				INFOPLIST_FILE = "RBSmartTableViewCell Demo/RBSmartTableViewCell Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E11EE4D91542324800745FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBSmartTableViewCell Demo/RBSmartTableViewCell Demo-Prefix.pch";
+				INFOPLIST_FILE = "RBSmartTableViewCell Demo/RBSmartTableViewCell Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E11EE4DB1542324800745FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RBSmartTableViewCell Demo.app/RBSmartTableViewCell Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBSmartTableViewCell Demo/RBSmartTableViewCell Demo-Prefix.pch";
+				INFOPLIST_FILE = "RBSmartTableViewCell DemoTests/RBSmartTableViewCell DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E11EE4DC1542324800745FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RBSmartTableViewCell Demo.app/RBSmartTableViewCell Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBSmartTableViewCell Demo/RBSmartTableViewCell Demo-Prefix.pch";
+				INFOPLIST_FILE = "RBSmartTableViewCell DemoTests/RBSmartTableViewCell DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E11EE4A41542324700745FE7 /* Build configuration list for PBXProject "RBSmartTableViewCell Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11EE4D51542324800745FE7 /* Debug */,
+				E11EE4D61542324800745FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11EE4D71542324800745FE7 /* Build configuration list for PBXNativeTarget "RBSmartTableViewCell Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11EE4D81542324800745FE7 /* Debug */,
+				E11EE4D91542324800745FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11EE4DA1542324800745FE7 /* Build configuration list for PBXNativeTarget "RBSmartTableViewCell DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11EE4DB1542324800745FE7 /* Debug */,
+				E11EE4DC1542324800745FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E11EE4A11542324700745FE7 /* Project object */;
+}
